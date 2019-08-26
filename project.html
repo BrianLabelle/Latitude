@@ -44,52 +44,84 @@
 <video class="bg-vid" poster="img/down-time.jpg" autoplay="" loop="" muted=""> <source src="video/project.mp4" type="video/mp4"></video>
 <!-- End Background Video  -->
 
-    <div class="container">
-      <div class="bs-docs-section">
-        <div class="row">
-          <div class="col-lg-12">
+<div class="container">
+    <div class="bs-docs-section">
+        <div class="card border-primary" >
+
+
+            <div class="row"><div class="col-lg-12"><div class="card-header"><h5>Project Details</h5></div>
+
             <div class="bs-component">
-              <div class="jumbotron">
-                <h1 id="containers">Project Summary: Latitude Analysis Dashboard</h1>
-                <p class="lead">In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.</p>
-                <hr class="my-4">
-                <p>Your objective is to build a series of scatter plots to showcase the following relationships:</p>
-                <ul>
-                <li>Temperature (F) vs. Latitude</li>
-                <li>Humidity (%) vs. Latitude</li>
-                <li>Cloudiness (%) vs. Latitude</li>
-                <li>Wind Speed (mph) vs. Latitude</li>
-                </ul>
-                  <a class="btn btn-primary btn-lg" href="index.html" role="button">Learn more</a>
-              </div>
-            </div>
+                <div class="card-body">
+
+                <div class="row">
+
+                <div class="col-md-5"><img src="img/pandas_html.jpg" width = "100%" alt=""/></div>
+                <div class="col-md-7"> 
+                  <ul>
+                    
+                    <li><a href="index.html"><b>Landing Page</b></a> contains: explanation of project & links to each visualizations page.</li><br>
+                    <li><a href="comparison.html"><b>4 visualization</b></a> pages: each containging title, heading, plots and a descriptive paragraph</li><br>
+                    <li><a href="comparison.html"><b>Comparison page </b></a>: contains all visualizations as a bootstrap grid.</li><br>
+                    <li><a href="data.html"><b>Data page </b></a>: contains a responsive bootstrap table that was populated from Python Pandas</li><br>
+                   </ul>
+                   
+                  </div>  </div>  
+                  <hr class="my-4">
+                  <div class="row">
+
+                      <div class="col-lg-12">                 
+                   
+                   
+                   
+                    <h4><b>The project has:</b></h4>
+                      <ul><li>Has the name of the site on the left of the nav which allows users to return to the landing page from any page.</li><br>
+                          <li>Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.</li><br>
+                          <li>Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.</li><br>
+                          <li>Is responsive (using media queries). ( Inside of the custom.min.css ) file. @media (min-width: 768px), etc...</li><br>
+                        
+                    <li>The website must be deployed to GitHub pages. <a href="https://brianlabelle.github.io/Latitude/" target="_blank"><b>brianlabelle.github.io/Latitude</b></a> </li>
+                  </ul>
+
+                  <hr class="my-4">
+                  <h4><b>Considerations / Bonuses:</b></h4>
+                  <ul><li>As permitted the entire site was built using <a href="https://bootswatch.com/spacelab/" target="_blank"><b>bootswatch.com/spacelab/</b></a></li><br>
+                      <li>entire site only has 9 page related videos for visual effects, 2 javascript files, 2 CSS files, 6 images, 1 csv file & 1 ipynb file. </li><br>
+                      <li>email address obfuscated to mitigate spam bots harvesting my email address using this website. <a href="https://www.tools4noobs.com/online_tools/obfuscate_email/" target="_blank"><b>www.tools4noobs.com/online_tools/obfuscate_email/</b></a></li><br>
+                      <li>email address obfuscated to mitigate spam bots harvesting my email address using this website. <a href="" target="_blank"><b>www.tools4noobs.com/online_tools/obfuscate_email/</b></a></li><br>
+              
+                    </ul>
+
+
+
+
+
+                      </div>
+</div></p></div></div></div></div></div>
+
+
+      <footer id="footer" class="card border-primary" >
+        <div class="row">
+          <div class="col-lg-12"><br>
+            <ul class="list-unstyled">
+              <li>  &copy;  Copyright 2019. All Rights Reserved. <a href="https://bootswatch.com/spacelab/" target="_blank" title="Latitude Analysis Dashboard"> Bootswatch Spacelab Template</a></li>
+                <li class="float-lg-right"><a href="bio.html">Bio</a></li>
+                <li class="float-lg-right"><a href="sitemap.html">Sitemap</a></li>
+                <li class="float-lg-right"><a href="project.html">Project</a></li>
+                <li class="float-lg-right"><a href="data.html">Data</a></li>
+                <li class="float-lg-right"><a href="comparison.html">Comparison</a></li>
+                <li class="float-lg-right"><a href="plots.html">Plots</a></li>
+            </ul>
           </div>
         </div>
+      </footer>
 
 
 
-        <footer id="footer" class="card border-primary" >
-          <div class="row">
-            <div class="col-lg-12"><br>
-              <ul class="list-unstyled">
-                <li>  &copy;  Copyright 2019. All Rights Reserved. <a href="https://bootswatch.com/spacelab/" target="_blank" title="Latitude Analysis Dashboard"> Bootswatch Spacelab Template</a></li>
-                  <li class="float-lg-right"><a href="bio.html">Bio</a></li>
-                  <li class="float-lg-right"><a href="sitemap.html">Sitemap</a></li>
-                  <li class="float-lg-right"><a href="project.html">Project</a></li>
-                  <li class="float-lg-right"><a href="data.html">Data</a></li>
-                  <li class="float-lg-right"><a href="comparison.html">Comparison</a></li>
-                  <li class="float-lg-right"><a href="plots.html">Plots</a></li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </div></div>
 </body>
 </html>
